@@ -1,0 +1,17 @@
+v=float(input('input velocity:'))
+c=299792458
+p=v/c
+print('percentage of light speed=',p)
+gamma=1/(1-p*p)**0.5
+A_td=4.3
+A_tp=A_td/gamma
+print('Travel time to Alpha Centauri =',A_tp)
+Bar_td=6.0
+Bar_tp=Bar_td/gamma
+print('Travel time to Barnards Star =',Bar_tp)
+Bet_td=309
+Bet_tp=Bet_td/gamma
+print('Travel time to Betelgeuse (in the Milky Way) =',Bet_tp)
+And_td=2000000
+And_tp=And_td/gamma
+print('Travel time to Andromeda Galaxy (closest galaxy) =',And_tp)
